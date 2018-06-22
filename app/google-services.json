@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1096872245713",
+    "firebase_url": "https://pribandoenreportero.firebaseio.com",
+    "project_id": "pribandoenreportero",
+    "storage_bucket": "pribandoenreportero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096872245713:android:a91131fee8ff4740",
+        "android_client_info": {
+          "package_name": "com.example.icg_dominicana.pribandoenreportero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096872245713-9b3u7d910c4vd4qr7rgo51fp6h8l4k0d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1096872245713-9b3u7d910c4vd4qr7rgo51fp6h8l4k0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFd9xuWwE1NWcHk11JF62HA_y3wVdKMGg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

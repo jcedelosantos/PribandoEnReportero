@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Postear">
+
+    <EditText
+        android:id="@+id/id_editTextReporte"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:ems="10"
+        android:hint="subir un reporte"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/id_imageView"
+        android:layout_width="264dp"
+        android:layout_height="217dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:src="@android:drawable/alert_light_frame" />
+
+    <ImageButton
+        android:id="@+id/id_buttonCamara"
+        android:layout_width="79dp"
+        android:layout_height="57dp"
+        android:layout_above="@+id/id_buttonReportar"
+        android:layout_below="@+id/id_imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:src="@android:drawable/ic_menu_camera" />
+    <Button
+        android:id="@+id/id_buttonReportar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="REPORTAR" />
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:background="#7ab7f1"
+    tools:context=".Activities.LoginActivity">
+
+    <EditText
+        android:id="@+id/id_editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_editText_password"
+        android:layout_marginBottom="-47dp"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/id_editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:hint="@string/password" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_editText_password"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_signin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="SIGN IN"
+            android:layout_margin="2dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="@color/colorAccent"
+            android:text="REGISTER"
+            android:textColor="@color/white" />
+
+
+        <Button
+            android:id="@+id/id_buttonNoLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_margin="2dp"
+            android:background="@color/colorAccent"
+            android:text="N/login"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
